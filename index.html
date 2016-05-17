@@ -1,1 +1,59 @@
-Hello World
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Raymond's Website</title>
+<img src="Box.jpg" alt="CAR Log" />
+<h1>Welcome Raymond Zhong's Real Estate Website!</h1>
+<p> <a href="http://www.car.org/3550/100772/Box_web.gif">Link</a> to California Association of Realtors (CAR) log and for <a href="http://www.car.org/3550/pdf/C.A.R._LogoUsePolicy.pdf"> <b>their use policy</b> </a> of the logo.</p>
+<h2> Below are a list of my services:</h2>
+<ul>
+	<li><h3>Sellers:</h3>We will help you sell their property for the HIGHEST price.</li>
+	<li><h3>Buyers:</h3>We will help you purchase a property.</li>
+</ul>
+<p>Please fill out the form below with your information and we with get back to you shortly. Thank you!</p>
+<form name="Lead Contact Info" action="https://httpbin.org/post" method="post">
+  <fieldset>
+    <div>
+      <label>Name:</label>
+      <input type="text" name="leadname">
+    </div>
+
+    <div>
+      <label>Email:</label>
+      <input type="email" name="email">
+    </div>
+  </fieldset>
+
+  <fieldset>
+    <div>
+      <label>Buyer or Seller:</label>
+      <select name="Lead Type">
+        <option value="Buyer">Buyer</option>
+        <option value="Seller">Seller</option>
+    </select>
+    </div>
+    <div>
+      <label>Address of property of interest:</label>
+      <input type="text" name="prop-add" placeholder="Property Adderess Information">
+    </div>
+    <div>    
+      <label>Choose a date would like to complete the transaction by:
+      </label>
+      <input type="date" name="date">
+    </div>
+ 		<label>Tell us what specific information you would lie:</label>
+		<p><textarea cols="50" rows="5"></textarea></p>
+    <div>
+      <input type="checkbox" name="cb-agree" value="agree">
+      I am prepared to make my move.
+    </div>
+  </fieldset> 
+  <button type="submit">Ready for the next steps</button>
+</form>
+<nav>
+<footer>
+	<a href="contact_info.html">Contact Information</a>
+</footer>
+  </nav>
+</body>
+</html>
