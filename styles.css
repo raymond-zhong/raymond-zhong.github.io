@@ -1,1 +1,30 @@
-body {background:blue}
+h1{
+	font-family: arial;
+	}
+#Logo{
+	padding: 10px 25% 10px 25%;
+	outline: 2px solid red;
+	}
+#Services{
+	outline: 2px solid blue;
+	padding: 5% 10px 10px 10px;
+	margin: 2%;
+	background: url("Box.jpg");
+	background-repeat: repeat-x;
+	background-size: 20%;
+	font-size: 1.5em;
+	color: darkblue;
+}
+.Sellers{
+	background: yellow;
+}
+.Buyers{
+	background: orange;
+}
+footer{
+	text-align: center;
+	outline: 2px solid red;
+	}
+a:visited {
+	color: green;
+}

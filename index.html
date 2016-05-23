@@ -4,28 +4,34 @@
 	<title>Raymond's Website</title>
   <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
-<img src="Box.jpg" alt="CAR Log" />
+<body>
+<div id=Logo><img src="Box.jpg" alt="CAR Logo"><p> <a href="http://www.car.org/3550/100772/Box_web.gif">Link</a> to California Association of Realtors (CAR) logo 
+and for <a href="http://www.car.org/3550/pdf/C.A.R._LogoUsePolicy.pdf"> <b>their use policy</b> </a> of the logo.</p></div>
 <h1>Welcome Raymond Zhong's Real Estate Website!</h1>
-<p> <a href="http://www.car.org/3550/100772/Box_web.gif">Link</a> to California Association of Realtors (CAR) log and for <a href="http://www.car.org/3550/pdf/C.A.R._LogoUsePolicy.pdf"> <b>their use policy</b> </a> of the logo.</p>
+
+<div id="Services">
 <h2> Below are a list of my services:</h2>
 <ul>
-	<li><h3>Sellers:</h3>We will help you sell their property for the HIGHEST price.</li>
-	<li><h3>Buyers:</h3>We will help you purchase a property.</li>
+	<div class="Sellers">
+  <li><h3>Sellers:</h3>We will help you sell your property for the HIGHEST price.</li>
+	</div>
+  <div class="Buyers">
+  <li><h3>Buyers:</h3>We will help you purchase your perfect property.</li>
+  </div>
 </ul>
-<p>Please fill out the form below with your information and we with get back to you shortly. Thank you!</p>
+</div>
+<div class ="Form">Please fill out the form below with your information and we with get back to you shortly. Thank you!
 <form name="Lead Contact Info" action="https://httpbin.org/post" method="post">
   <fieldset>
     <div>
       <label>Name:</label>
       <input type="text" name="leadname">
     </div>
-
     <div>
       <label>Email:</label>
       <input type="email" name="email">
     </div>
   </fieldset>
-
   <fieldset>
     <div>
       <label>Buyer or Seller:</label>
@@ -52,10 +58,12 @@
   </fieldset> 
   <button type="submit">Ready for the next steps</button>
 </form>
+</div>
+</body>
 <nav>
 <footer>
-	<a href="contact_info.html">Contact Information</a>
+  <a href="contact_info.html">Contact Information</a>
+  <a href="http://wwww.car.org">California Association of Realtors Website</a>
 </footer>
-  </nav>
-</body>
+</nav>
 </html>
